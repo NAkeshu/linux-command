@@ -267,3 +267,27 @@ linux中一切皆文件
 	init	调用级别
 	·runlevel	查询系统当前级别
 5、退出登录命令：logout
+
+
+
+*g++常用命令选项（来自菜鸟教程）
+	-ansi	只支持ANCI标准的C语法。这一选项将禁止GNU C的某些特色。例如asm或	typeof关键词。
+	-c	只编译并生成目标文件
+	-DMACRO	以字符串“1”定义MACRO宏。
+	-DMACRO=DEFN	以字符串“DEFN”定义MACRO宏。
+	-E	只运行C预编译。
+	-g	生成调试信息，GNU调试器可利用该信息。
+	-IDIRECTORY	指定额外的头文件搜索路径DIRECTORY
+	-LDIRECTORY	指定额外的函数库搜索路径DIRECTORY
+	-ILIBRARY	连接时搜索指定的函数库LIBRARY
+	-m486	针对486进行代码优化
+	-o	FILE生成指定的输出文件。用在生成可执行文件时
+	-O0	不进行优化处理
+	-O	或-O1优化生成代码
+	-O2	进一步优化
+	-O3	比-O2更进一步优化，包括inline函数
+	-shared	生成目标文件。通常用在建立共享库时
+	-static	禁止使用共享链接
+	-UMACRO	取消对MACRO宏的定义
+	-w	不胜成任何警告内容
+	-Wall	生成所有警告命令
